@@ -1,0 +1,166 @@
+.dogcreate-container{
+    background-image: url("https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2016/03/521755-selva-amazonica-extensa-planeta.jpg?itok=6FIhtS8s");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;  
+  font-family: 'Pacifico', cursive;
+  font-family: 'Shalimar', cursive;
+  color: rgb(207, 198, 197);
+  font-size: 1.3rem;
+}
+
+.div-container{    
+    margin-bottom: 20px;
+}
+
+.listaTemps {
+    width: 50%;
+    overflow: scroll;
+    height: 500px;
+    list-style-position: inside;
+    float: right;
+    counter-reset: label; 
+    list-style: none; 
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    font-family: 'Pacifico', cursive;
+  font-family: 'Shalimar', cursive;
+  font-size: 1.2rem;
+}
+
+.label-temp{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    background: #ddd;
+    color: rgb(8, 53, 15);
+    text-decoration: none;
+    transition: all .3s ease-out; 
+    font-family: 'Pacifico', cursive;
+  font-family: 'Shalimar', cursive;  
+}
+
+.label-temp:hover{
+    background: rgb(202, 157, 157);
+}   
+
+.label-temp:before{
+    content: counter(label);
+    counter-increment: label;
+    position: absolute; 
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #1d941d;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.label-temp:after{
+    position: absolute; 
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;               
+}
+
+.label-temp:hover:after{
+    left: -.5em;
+    border-left-color: #fa8072;             
+}
+
+.listaBreeds{
+    width: 50%;
+    height: 500px;
+    list-style-position: inside;
+    float: right;
+    counter-reset: label; 
+    list-style: none; 
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    font-family: 'Pacifico', cursive;
+  font-family: 'Shalimar', cursive;
+  font-size: 1.2rem;
+}
+.label-breed{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    background: #ddd;
+    color: rgb(8, 53, 15);
+    text-decoration: none;
+    transition: all .3s ease-out; 
+    font-family: 'Pacifico', cursive;
+  font-family: 'Shalimar', cursive;  
+}
+
+.label-breed:hover{
+    background: rgb(202, 157, 157);
+}   
+
+.label-breed:before{
+    content: counter(label);
+    counter-increment: label;
+    position: absolute; 
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: #129e7b;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.label-breed:after{
+    position: absolute; 
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;               
+}
+
+.label-breed:hover:after{
+    left: -.5em;
+    border-left-color: #6e7ec5;             
+}
+.temp {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.text {
+    margin-left: 0.25%;
+}
+
+/* .label:checked {
+    box-shadow: hotpink;
+    background-color: hotpink; */
+
+/* } */
+/* .checkbox {
+    
+    
+} */
+/* .checkbox input[type="checkbox"]:checked + label {
+    background: hotpink;
+    color: hotpink;
+    background-color: hotpink;
+} */

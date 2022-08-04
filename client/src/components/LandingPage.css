@@ -1,0 +1,38 @@
+.main_container{
+   background: url( "https://img.freepik.com/vector-gratis/marco-vector-perros-sobre-fondo-blanco_53876-127700.jpg?w=2000" );
+   background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height:100vh;
+    
+    
+}
+
+.titleApp{
+    color: rgb(84, 58, 156);
+    text-shadow: 0 0 2px #25b687;
+    font-size: 4rem;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    margin-top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, fantasy;
+}
+.button_home { 
+    cursor: pointer; 
+    border: none;
+    position: relative;
+    background-image: url('https://img.freepik.com/vector-gratis/cartel-bienvenida-amigo-perro-caja-carton_107791-11362.jpg?w=826&t=st=1659135357~exp=1659135957~hmac=0cfcf9e61be61ef4b86095da6d3643b856a80e442028231fb789f03e69fed240');
+    background-position: center;
+    background-size: cover;
+    color: rgb(144, 194, 144);
+    border-radius: 5px;
+    width: 600px;
+    height: 200px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 60px;
+}
+
+
+

@@ -1,0 +1,51 @@
+.card_container{
+    font-size: 0.7rem;
+    text-decoration: none;
+    max-height: 50vh;
+    overflow: hidden;
+    color: #3a45d6;
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.card_container::before{
+    content: "";
+    position: absolute;
+}
+
+.card_container:hover::before{
+    content: "Detalles";
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 120px;
+    border-radius: 10px;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, fantasy;
+    color: rgb(0, 0, 0);
+    left: 0%;
+    background-color: rgba(153, 153, 153, 0.5);
+}
+
+.image_container{
+    height: 100vh;
+    border-radius: 7px;
+    width: 40%;
+}
+
+.image_container > img{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: fill;
+    
+}
+
+.h-container{
+    width: 50%;
+    font-size: x-large;
+    margin-top: 0px;
+    line-height: 50px;
+}

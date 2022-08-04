@@ -1,0 +1,28 @@
+.detail-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Shalimar', cursive;
+  background-image: url("https://www.snau.es/blog/wp-content/uploads/2019/03/cachorro-1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.detail-container h1{
+    text-decoration: underline;
+    color: black;
+}
+
+.detail-container h2{
+    text-decoration: underline;
+    color:  #ca403c;
+}
+
+.detail-container p{
+    text-decoration: underline;
+    color: white;
+}
